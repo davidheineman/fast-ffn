@@ -24,7 +24,7 @@ def sample_inputs(device, *, requires_grad=False):
 
     input_width = 768
     output_width = 768
-    depth = 15
+    depth = 12
     n_nodes = (1 << (depth + 1)) - 1 # 2**12 - 1
 
     # batch_size = 1
